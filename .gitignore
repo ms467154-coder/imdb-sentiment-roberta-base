@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local preview and logs
+*.log
+backend/uploads/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large generated artifacts not needed in source control
+*.tmp
+*.bak
